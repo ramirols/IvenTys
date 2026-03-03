@@ -113,7 +113,9 @@ export default function AppSidebar() {
                                 </DropdownMenuItem>
                                 <DropdownMenuSeparator className="bg-slate-50" />
                                 <DropdownMenuItem className="rounded-lg cursor-pointer py-2 text-red-500 focus:text-red-600 focus:bg-red-50">
-                                    <LogOut className="mr-2 size-4" /> Cerrar sesión
+                                    <Link href="/login">
+                                        <LogOut className="mr-2 size-4" /> Cerrar sesión
+                                    </Link>
                                 </DropdownMenuItem>
                             </DropdownMenuContent>
                         </DropdownMenu>
